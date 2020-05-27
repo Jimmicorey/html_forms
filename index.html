@@ -7,24 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<main>
+<div class="wrapper">
+    <div class="group">
 
+        <div class="item">
+            <form action="#" method="POST">
+                <fieldset>
+                    <!-- <legend>CONTACT FORM</legend> -->
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name" placeholder="Enter your name" required />
+                    
+                    <label for="user-email">Email:</label>
+                    <input id="user-email" type="email" name="email" placeholder="Enter your email" required />
 
-    <form action="URL" method="POST">
-        <fieldset>
-            <!-- <legend>CONTACT FORM</legend> -->
-            <label for="user-name">Name:</label>
-            <input id="user-name" type="text" name="name" placeholder="Enter your name" required />
-            
-            <label for="user-email">Email:</label>
-            <input id="user-email" type="email" name="email" placeholder="Enter your email" required />
+                    <label for="form-message">Your Message:</label>
+                    <textarea id="form-message" name="message" maxlength="200" placeholder="Enter your message (max 200 characters)" required></textarea>
+                </fieldset>
 
-            <label for="form-message">Your Message:</label>
-            <textarea id="form-message" name="message" maxlength="200" placeholder="Enter your message (max 200 characters)" required></textarea>
-        </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
 
-        <button type="submit">Submit</button>
-    </form>
-    
-    
+    </div>
+</div>
+</main>
 </body>
 </html>
